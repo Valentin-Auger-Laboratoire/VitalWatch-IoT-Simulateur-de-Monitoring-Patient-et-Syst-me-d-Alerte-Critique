@@ -2,6 +2,8 @@
 
 🇫🇷 [Français](#français) · 🇬🇧 [English](#english)
 
+**Essayer la démo / Try the demo :** https://valentin-auger-laboratoire.github.io/portfolio/demos/vitalwatch/
+
 ![Sepsis simulé : constantes, alarmes de seuil et score NEWS2](images/sepsis.png)
 
 > Patient, capteur et réseau **simulés**. Projet d'étude, **pas un dispositif médical**.
@@ -43,6 +45,7 @@ Le NEWS2, qui combine plusieurs constantes légèrement anormales, atteint le ni
 ### Fichiers
 | Fichier | Contenu |
 |---|---|
+| `demo/` | démo web (copie de celle du portfolio), avec ses tests : `node demo/tests/test.js` |
 | `vitalwatch/news2.py` | barème NEWS2 (échelle 1 de SpO2) et niveaux de réponse |
 | `vitalwatch/simulation.py` | patient virtuel, capteur, réseau imparfait |
 | `vitalwatch/moniteur.py` | remise en ordre, alarmes cliniques et techniques, NEWS2 |
